@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C240AF17BA61C400ECB740 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C240AE17BA61C400ECB740 /* Cocoa.framework */; };
+		23C240B917BA61C400ECB740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23C240B717BA61C400ECB740 /* InfoPlist.strings */; };
+		23C240BB17BA61C400ECB740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C240BA17BA61C400ECB740 /* main.m */; };
+		23C240BF17BA61C400ECB740 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 23C240BD17BA61C400ECB740 /* Credits.rtf */; };
+		23C240C217BA61C400ECB740 /* TUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C240C117BA61C400ECB740 /* TUAppDelegate.m */; };
+		23C240C517BA61C400ECB740 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C240C317BA61C400ECB740 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23C240AB17BA61C400ECB740 /* KinectTEST1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinectTEST1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C240AE17BA61C400ECB740 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		23C240B117BA61C400ECB740 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		23C240B217BA61C400ECB740 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		23C240B317BA61C400ECB740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23C240B617BA61C400ECB740 /* KinectTEST1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KinectTEST1-Info.plist"; sourceTree = "<group>"; };
+		23C240B817BA61C400ECB740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23C240BA17BA61C400ECB740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C240BC17BA61C400ECB740 /* KinectTEST1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KinectTEST1-Prefix.pch"; sourceTree = "<group>"; };
+		23C240BE17BA61C400ECB740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		23C240C017BA61C400ECB740 /* TUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUAppDelegate.h; sourceTree = "<group>"; };
+		23C240C117BA61C400ECB740 /* TUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUAppDelegate.m; sourceTree = "<group>"; };
+		23C240C417BA61C400ECB740 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C240A817BA61C400ECB740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C240AF17BA61C400ECB740 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C240A217BA61C400ECB740 = {
+			isa = PBXGroup;
+			children = (
+				23C240B417BA61C400ECB740 /* KinectTEST1 */,
+				23C240AD17BA61C400ECB740 /* Frameworks */,
+				23C240AC17BA61C400ECB740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C240AC17BA61C400ECB740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C240AB17BA61C400ECB740 /* KinectTEST1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C240AD17BA61C400ECB740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C240AE17BA61C400ECB740 /* Cocoa.framework */,
+				23C240B017BA61C400ECB740 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23C240B017BA61C400ECB740 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C240B117BA61C400ECB740 /* AppKit.framework */,
+				23C240B217BA61C400ECB740 /* CoreData.framework */,
+				23C240B317BA61C400ECB740 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		23C240B417BA61C400ECB740 /* KinectTEST1 */ = {
+			isa = PBXGroup;
+			children = (
+				23C240C017BA61C400ECB740 /* TUAppDelegate.h */,
+				23C240C117BA61C400ECB740 /* TUAppDelegate.m */,
+				23C240C317BA61C400ECB740 /* MainMenu.xib */,
+				23C240B517BA61C400ECB740 /* Supporting Files */,
+			);
+			path = KinectTEST1;
+			sourceTree = "<group>";
+		};
+		23C240B517BA61C400ECB740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23C240B617BA61C400ECB740 /* KinectTEST1-Info.plist */,
+				23C240B717BA61C400ECB740 /* InfoPlist.strings */,
+				23C240BA17BA61C400ECB740 /* main.m */,
+				23C240BC17BA61C400ECB740 /* KinectTEST1-Prefix.pch */,
+				23C240BD17BA61C400ECB740 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C240AA17BA61C400ECB740 /* KinectTEST1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C240C817BA61C400ECB740 /* Build configuration list for PBXNativeTarget "KinectTEST1" */;
+			buildPhases = (
+				23C240A717BA61C400ECB740 /* Sources */,
+				23C240A817BA61C400ECB740 /* Frameworks */,
+				23C240A917BA61C400ECB740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinectTEST1;
+			productName = KinectTEST1;
+			productReference = 23C240AB17BA61C400ECB740 /* KinectTEST1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C240A317BA61C400ECB740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TU;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tatsuo Unemi";
+			};
+			buildConfigurationList = 23C240A617BA61C400ECB740 /* Build configuration list for PBXProject "KinectTEST1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23C240A217BA61C400ECB740;
+			productRefGroup = 23C240AC17BA61C400ECB740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C240AA17BA61C400ECB740 /* KinectTEST1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C240A917BA61C400ECB740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C240B917BA61C400ECB740 /* InfoPlist.strings in Resources */,
+				23C240BF17BA61C400ECB740 /* Credits.rtf in Resources */,
+				23C240C517BA61C400ECB740 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C240A717BA61C400ECB740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C240BB17BA61C400ECB740 /* main.m in Sources */,
+				23C240C217BA61C400ECB740 /* TUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23C240B717BA61C400ECB740 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C240B817BA61C400ECB740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23C240BD17BA61C400ECB740 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C240BE17BA61C400ECB740 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		23C240C317BA61C400ECB740 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C240C417BA61C400ECB740 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C240C617BA61C400ECB740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23C240C717BA61C400ECB740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23C240C917BA61C400ECB740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KinectTEST1/KinectTEST1-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "KinectTEST1/KinectTEST1-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = "-lfreenect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23C240CA17BA61C400ECB740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KinectTEST1/KinectTEST1-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "KinectTEST1/KinectTEST1-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = "-lfreenect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C240A617BA61C400ECB740 /* Build configuration list for PBXProject "KinectTEST1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C240C617BA61C400ECB740 /* Debug */,
+				23C240C717BA61C400ECB740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C240C817BA61C400ECB740 /* Build configuration list for PBXNativeTarget "KinectTEST1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C240C917BA61C400ECB740 /* Debug */,
+				23C240CA17BA61C400ECB740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23C240A317BA61C400ECB740 /* Project object */;
+}
